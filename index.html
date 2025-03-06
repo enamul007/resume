@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -33,10 +33,72 @@
           class="rounded-full mx-auto mb-4 border-4 border-teal-400 p-2 shadow-lg"
         />
         <h1 class="text-4xl text-teal-400 font-semibold mb-2">ENAMUL HOQUE</h1>
-        <p class="text-lg text-gray-400">Senior Software Engineer</p>
+        <p class="text-lg text-gray-400">Software Engineer</p>
       </header>
+      <nav class="p-4">
+        <ul
+          class="flex space-x-6 justify-center text-white-800 font-semibold text-lg"
+        >
+          <li>
+            <a href="#AboutMe" class="relative hover:text-white-600">
+              About Me
+              <span class="absolute inset-0 text-white-300 -z-10 blur-sm"
+                >About Me</span
+              >
+            </a>
+          </li>
+          <li>
+            <a href="#ContactInformation" class="relative hover:text-white-600">
+              Contact Information
+              <span class="absolute inset-0 text-white-300 -z-10 blur-sm"
+                >Contact Information</span
+              >
+            </a>
+          </li>
+          <li>
+            <a href="#PersonalDetails" class="relative hover:text-white-600">
+              Personal Details
+              <span class="absolute inset-0 text-white-300 -z-10 blur-sm"
+                >Personal Details</span
+              >
+            </a>
+          </li>
+          <li>
+            <a href="#TechnicalSkills" class="relative hover:text-white-600">
+              Technical Skills
+              <span class="absolute inset-0 text-white-300 -z-10 blur-sm"
+                >Technical Skills</span
+              >
+            </a>
+          </li>
+          <li>
+            <a href="#Education" class="relative hover:text-white-600">
+              Education
+              <span class="absolute inset-0 text-white-300 -z-10 blur-sm"
+                >Education</span
+              >
+            </a>
+          </li>
+          <li>
+            <a href="#WorkExperience" class="relative hover:text-white-600">
+              Work Experience
+              <span class="absolute inset-0 text-white-300 -z-10 blur-sm"
+                >Work Experience</span
+              >
+            </a>
+          </li>
+          <li>
+            <a href="#HobbiesActivities" class="relative hover:text-white-600">
+              Hobbies & Activities
+              <span class="absolute inset-0 text-white-300 -z-10 blur-sm"
+                >Hobbies & Activities</span
+              >
+            </a>
+          </li>
+        </ul>
+      </nav>
 
-      <section class="about mb-8">
+      <section class="about mb-8" id="AboutMe">
         <h2
           class="text-xl font-semibold text-teal-400 border-b border-teal-500 pb-2"
         >
@@ -49,7 +111,7 @@
           environment as well as using my own initiative.
         </p>
       </section>
-      <section class="contacts mb-8">
+      <section class="contacts mb-8" id="ContactInformation">
         <h2
           class="text-xl font-semibold text-teal-400 border-b border-teal-500 pb-2"
         >
@@ -99,12 +161,37 @@
               <i class="fab fa-github text-teal-400 ml-2"></i
             ></a>
           </p>
-          <p class="text-lg">Address: 1768, South Manda, Dhaka-1238</p>
+          <p class="text-lg">1768, South Manda, Dhaka-1238</p>
         </div>
       </section>
-
-      <section class="skills mb-8">
-        <h2 class="text-2xl text-teal-400 mb-4">Skills & Expertise</h2>
+      <section class="contacts mb-8" id="PersonalDetails">
+        <h2
+          class="text-xl font-semibold text-teal-400 border-b border-teal-500 pb-2"
+        >
+          Personal Details
+        </h2>
+        <div class="space-y-4">
+          <p><strong>Father's Name:</strong> MOJAMMEL HOQUE</p>
+          <p><strong>Mother's Name:</strong> FERDOUS ARA BEGUM</p>
+          <p><strong>Date of Birth:</strong> June 1, 1988</p>
+          <p><strong>Gender:</strong> Male</p>
+          <p><strong>Marital Status:</strong> Married</p>
+          <p><strong>Nationality:</strong> Bangladeshi</p>
+          <p><strong>National Id:</strong> 7518313511809</p>
+          <p><strong>Religion:</strong> Islam</p>
+          <p><strong>Blood Group:</strong> B+</p>
+          <p>
+            <strong>Permanent Address:</strong> Vill+P.O: Ambar Nagar, P.S:
+            Sonaimori, Dist: Noakhali
+          </p>
+          <p>
+            <strong>Present Address:</strong> 1738 Ayes Prayas, South Mandha,
+            Mughda, Dhaka-1214
+          </p>
+        </div>
+      </section>
+      <section class="skills mb-8" id="TechnicalSkills">
+        <h2 class="text-2xl text-teal-400 mb-4">Technical Skills</h2>
         <ul class="space-y-4">
           <li
             class="flex justify-between items-center"
@@ -227,14 +314,14 @@
         </ul>
       </section>
 
-      <section class="education mb-8">
+      <section class="education mb-8" id="Education">
         <h2
           class="text-xl font-semibold text-teal-400 border-b border-teal-500 pb-2"
         >
           Education
         </h2>
 
-         <ul class="list-disc pl-6 space-y-2">
+        <ul class="list-disc pl-6 space-y-2">
           <li>
             <a
               href="https://drive.google.com/file/d/0B72PPwBA1yXQbXNESTdxVkdoZ04yYmpqcEFDSzV2eldYNkNN/view?usp=drive_link&resourcekey=0-HFUo7iiEqj5tkxcUifv98g"
@@ -261,13 +348,19 @@
           </li>
           <li>MSc in Chemistry: National University - 2012</li>
           <li>
-            PGD in Enterprise Systems Analysis and Design with C#.NET: IDB
-            Bishew – 2017
+            <a
+              href="./profession-certificate-pgd.png"
+              class="text-blue-400 hover:text-teal-400"
+              target="_blank"
+            >
+              PGD in Enterprise Systems Analysis and Design with C#.NET: IDB
+              Bishew – 2017
+            </a>
           </li>
         </ul>
       </section>
 
-      <section class="mt-6">
+      <section class="mt-6" id="WorkExperience">
         <h2
           class="text-xl font-semibold text-teal-400 border-b border-teal-500 pb-2"
         >
@@ -279,7 +372,7 @@
           >
             <p class="text-lg font-semibold">
               Full Stack Software Engineer - Hameem Group (September 2024 –
-               Continue)
+              February 2025)
             </p>
             <ul class="list-disc pl-6 space-y-2">
               <li>
@@ -347,7 +440,7 @@
         </div>
       </section>
 
-      <section class="mt-6">
+      <section class="mt-6" id="HobbiesActivities">
         <h2
           class="text-xl font-semibold text-teal-400 border-b border-teal-500 pb-2"
         >
